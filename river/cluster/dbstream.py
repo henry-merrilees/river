@@ -24,8 +24,7 @@ class DBSTREAM(base.Clusterer):
     For a new point `p`:
 
     * Find all micro clusters for which `p` falls within the fixed radius
-    (clustering threshold). If no neighbor is found, a new micro cluster
-    with a weight of 1 is created for `p`.
+    (clustering threshold).
 
     * If no neighbor is found, a new micro cluster with a weight of 1 is
     created for `p`. If one or more neighbors of `p` are found, we update
